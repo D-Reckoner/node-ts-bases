@@ -13,11 +13,13 @@
   "author": "Fernando Herrera",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.14.0",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
     "axios": "^1.4.0",
     "get-age": "^1.0.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "winston": "^3.17.0"
   }
 }
