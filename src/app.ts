@@ -1,4 +1,5 @@
-const { getAge, getUUID, buildLogger } = require('./plugins');
+import { getPokemonNameById } from './js-foundation/06-promises';
+import { buildLogger } from './plugins/logger.plugin';
 
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
@@ -12,6 +13,9 @@ const { getAge, getUUID, buildLogger } = require('./plugins');
 //   .then( ( pokemon ) => console.log({ pokemon }) )
 //   .catch( ( err ) => console.log( err ) )
 //   .finally( () => console.log('Finalmente') );
+
+
+getPokemonNameById(10).then( ( pokemon ) => console.log({ pokemon }) );
 
 const logger = buildLogger('app.js');
 
@@ -32,8 +36,5 @@ logger.error ('Ya valio...');
 
 // console.log({ john });
 
-
-
-
-
-
+export const name: string = 'John Doe';
+console.log(name);
