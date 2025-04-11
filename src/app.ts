@@ -1,5 +1,5 @@
-import { getPokemonNameById } from './js-foundation/06-promises';
-import { buildLogger } from './plugins/logger.plugin';
+// import { getPokemonNameById } from './js-foundation/06-promises';
+// import { buildLogger } from './plugins/logger.plugin';
 
 // const { emailTemplate } = require('./js-foundation/01-template');
 // require('./js-foundation/02-destructuring');
@@ -15,12 +15,12 @@ import { buildLogger } from './plugins/logger.plugin';
 //   .finally( () => console.log('Finalmente') );
 
 
-getPokemonNameById(10).then( ( pokemon ) => console.log({ pokemon }) );
+// getPokemonNameById(10).then( ( pokemon ) => console.log({ pokemon }) );
 
-const logger = buildLogger('app.js');
+// const logger = buildLogger('app.js');
 
-logger.log ('Iniciando la app...');
-logger.error ('Ya valio...');
+// logger.log ('Iniciando la app...');
+// logger.error ('Ya valio...');
 
 
 // token de acceso
@@ -36,5 +36,5 @@ logger.error ('Ya valio...');
 
 // console.log({ john });
 
-export const name: string = 'John Doe';
-console.log(name);
+// export const name: string = 'John Doe';
+// console.log(name);
